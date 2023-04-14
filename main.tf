@@ -1,3 +1,12 @@
 provider "myprovider" {
-    version = "0.1.0"
+}
+
+
+terraform {
+  required_providers {
+    myprovider = {
+      source = "myprovider"
+      version = "0.1.0"
+    }
+  }
 }
