@@ -1,3 +1,0 @@
-[submodule "terraform.d/plugins"]
-	path = terraform.d/plugins
-	url = https://github.com/munnep/tfe_provider_repository.git
